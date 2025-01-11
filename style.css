@@ -406,6 +406,43 @@ nav ul .fas{
     left: 25px;
     cursor: pointer;
 }
+#sidemenu {
+    position: fixed; 
+    top: 0;
+    right: -200px; 
+    width: 200px;
+    height: 100%;
+    background: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    transition: right 0.3s ease; 
+    z-index: 1000; 
+
+}
+
+#sidemenu li {
+    list-style: none;
+    margin: 20px 0;
+  }
+
+  #sidemenu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  #sidemenu .fa-circle-xmark {
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  nav .fa-bars {
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1100;
+  }
 .sub-title{
     font-size: 40px;
 }
